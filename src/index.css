@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.motor-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.return-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
