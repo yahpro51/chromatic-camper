@@ -50,9 +50,9 @@ line-height: normal;
 export const Shopcon = styled.div`
 display: flex;
 justify-content: center;
-width: 100%;
 height: 100%;
 padding: 60px 70px;
+gap: 30px;
 `
 export const Filtercon = styled.div`
 display: flex;
@@ -302,29 +302,8 @@ line-height: 100%; /* 16px */
 export const Rightcon1input = styled.div`
 display: flex;
 justify-content: center;
-input{
-    padding: 8px 10px;
-    width: 197px;
-height: 30px;
-flex-shrink: 0;
-border-radius: 5px 0px 0px 5px;
-border: 1px solid rgba(55, 55, 55, 0.30);
-color: rgba(55, 55, 55, 0.60);
-font-family: Montserrat;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 100%; /* 14px */
-}
-div{
+.input{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-height: 30px;
-flex-shrink: 0;
-border-radius: 0px 5px 5px 0px;
-border: 1px solid rgba(55, 55, 55, 0.30);
 }
 `
 export const Datarightcon2 = styled.div`
@@ -334,6 +313,17 @@ align-items: center;
 gap: 10px;
 `
 export const Rightcon2input = styled.div`
+display: flex;
+justify-content: center;
+
+.input{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+`
+export const Rightcon3input = styled.div`
 display: flex;
 justify-content: center;
 input{
@@ -387,8 +377,8 @@ gap: 20px;
 export const Card = styled.div`
 display: flex;
 gap: 18px;
-width: 223px;
-height: 307px;
+width: 230px;
+height: 300px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
@@ -398,6 +388,7 @@ background: #FFF;
 box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.10);
 `
 export const Cardup = styled.div`
+flex: 2;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -446,6 +437,7 @@ line-height: normal;
 
 
 export const Carddown = styled.div`
+flex: 1;
 display: flex;
 flex-direction: column;
 justify-content: center;

@@ -11,23 +11,23 @@ import navarrow from "../../assets/nav-arrow.svg"
 const Navbarcomponent = () => {
   return (
     <Navbarcon>
-      <Navlogo>
+     <Link to={"/mainpage"} style={{textDecoration: `none`}}><Navlogo>
         Camper
-      </Navlogo>
+      </Navlogo></Link> 
       <Navmid>
-      <Link to={'/motor'}>
+      <Link to={'/motor'} style={{textDecoration: `none`}}>
         <div>motor</div>
       </Link>
-      <Link to={'/caravan'}>
+      <Link to={'/caravan'} style={{textDecoration: `none`}}>
         <div>caravan</div>
       </Link>
-      <Link to={'/tuning'}>
+      <Link to={'/tuning'} style={{textDecoration: `none`}}>
         <div>tuning</div>
       </Link>
-      <Link to={'/usedcar'}>
+      <Link to={'/usedcar'} style={{textDecoration: `none`}}>
         <div>used car</div>
       </Link>
-      <Link to={'/campingplace'}>
+      <Link to={'/campingplace'} style={{textDecoration: `none`}}>
         <div>camping place</div>
       </Link>
       </Navmid>

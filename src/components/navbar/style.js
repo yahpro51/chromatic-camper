@@ -17,7 +17,7 @@ justify-content: space-evenly;
 div{
     cursor: pointer;
     color: var(--text, #373737);
-font-family: Montserrat;
+    font-family: Montserrat;
 font-size: 16px;
 font-style: normal;
 font-weight: 600;
@@ -26,7 +26,7 @@ line-height: normal;
 
 `
 export const Navlogo = styled.div`
-flex: 1;
+flex: 4;
 color: var(--blue, #006DAB);
 font-family: Montserrat;
 font-size: 38px;
